@@ -1,0 +1,126 @@
+html{
+    overflow-x: hidden;}
+/*Common*/
+body{
+    font-family: 'Lucida Console';
+    background-color:rgba(0, 0, 0, 0.71);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*Account/Menu Bar*/
+.accountBar {
+    width: 100%;
+    max-height: 100px;
+    position: fixed;
+}
+.icon, .drop {
+    float: right;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+.icon{
+      width: 40px;
+      height: 40px;
+}
+.icon img{
+      width: 100%;
+}
+.drop {
+    float: right;
+    overflow: hidden;
+}
+#archiveDrop{
+    float: left;
+    min-height: 500px;
+    z-index: 1000;
+}
+#archiveDrop .dropContent{
+    width: 30%; 
+}
+#archiveDrop a{
+    text-align: left;
+    padding: 5px;
+}
+button {
+    font-size: 18px; 
+    border: none;
+    outline: none;
+    color: #721a1a;
+    background-color: transparent;
+    padding: 14px 10px 5px 0;
+}
+button:hover b{
+    color: #706363;
+}
+.dropContent{
+    display: none;
+    position: absolute;
+    color: black;
+    margin: 0;
+    z-index: 0;
+} 
+.dropContent a {
+    float: none;
+    color: black;
+    padding: 5px 0px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+.drop:hover .dropContent {
+    display: block;
+}
+#archiveDrop:hover .dropContent{
+    background-color:rgba(209, 209, 209, 0.91);  
+    box-shadow: 0 0 5px 10px rgba(209, 209, 209, 0.9);     
+}
+.dropContent a:hover{
+    color: #706363;
+}
+.dropContent a:hover b{
+    color: #000000;
+}
+.blogHeader{
+    font-size: 30px;
+    font-weight: bolder;
+}
+/*Post*/
+.allPosts{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 20%;
+}
+.post{
+    margin-top:50px; 
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.aka{
+    animation: glowUp 4s ease-in-out infinite alternate;
+    color: #350F0F;
+}
+.postContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+hr{
+    border: 2px dashed #E6E6E6;
+    margin-top: 10px;
+    margin-block-end: 20px;
+}
+.postMedia{
+    align-content: center;
+    font-style: italic;
+}
