@@ -1,5 +1,5 @@
 # Haunted Story
-A simple website created for a photo editing project. Combines UX and narrative design.
+A website created to host a photo editing and multimedia project. Combines UX and narrative design.
 
 ## Technologies
 HTML  
