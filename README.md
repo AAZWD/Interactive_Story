@@ -5,4 +5,4 @@ A simple website created for a photoediting project. Combines UX and narrative d
 HTML  
 CSS  
 JS  
-Adobe Photoshop, Illustrator  
+Adobe Photoshop, Illustrator, XD  
