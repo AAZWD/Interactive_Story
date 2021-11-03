@@ -1,5 +1,5 @@
-# Haunted_Story
-Mutimedia project combining UI design with photo editing, and narrative design.
+# Haunted Story
+A simple website created for a photoediting project. Combines UX and narrative design.
 
 ## Technologies
 HTML  
